@@ -1,0 +1,100 @@
+{"premise": "Người đàn ông bật vòi nước.", "choice1": "Nhà vệ sinh đầy nước.", "choice2": "Nước chảy ra từ vòi.", "question": "effect", "label": 1, "idx": 0, "changed": false}
+{"premise": "Cô gái tìm thấy con bọ trong ngũ cốc của mình.", "choice1": "Cô đổ sữa vào bát.", "choice2": "Cô mất cảm giác ngon miệng.", "question": "effect", "label": 1, "idx": 1, "changed": false}
+{"premise": "Người phụ nữ đã nghỉ hưu.", "choice1": "Cô ấy nhận lương hưu.", "choice2": "Cô ấy đã trả hết nợ thế chấp của mình.", "question": "effect", "label": 0, "idx": 2, "changed": false}
+{"premise": "Tôi muốn tiết kiệm năng lượng.", "choice1": "Tôi quét sàn trong căn phòng trống.", "choice2": "Tôi tắt đèn trong căn phòng trống.", "question": "effect", "label": 1, "idx": 3, "changed": false}
+{"premise": "Thịt hamburger chuyển màu nâu.", "choice1": "Đầu bếp đông lạnh nó.", "choice2": "Đầu bếp nướng nó.", "question": "cause", "label": 1, "idx": 4, "changed": false}
+{"premise": "Tôi nghi ngờ thông tin chào mời của người bán hàng.", "choice1": "Tôi từ chối lời đề nghị của anh ấy.", "choice2": "Anh ấy thuyết phục tôi mua sản phẩm.", "question": "effect", "label": 0, "idx": 5, "changed": false}
+{"premise": "Tôi quyết định ở nhà tối nay.", "choice1": "Dự báo thời tiết có bão.", "choice2": "Bạn bè tôi rủ tôi ra ngoài chơi.", "question": "cause", "label": 0, "idx": 6, "changed": false}
+{"premise": "Mắt tôi đỏ hoe.", "choice1": "Tôi đã khóc nức nở.", "choice2": "Tôi đã cười.", "question": "cause", "label": 0, "idx": 7, "changed": false}
+{"premise": "Ngọn lửa trên ngọn nến đã tắt.", "choice1": "Tôi thổi vào bấc.", "choice2": "Tôi đặt một que diêm cho bấc.", "question": "cause", "label": 0, "idx": 8, "changed": false}
+{"premise": "Người đàn ông uống rất nhiều trong bữa tiệc.", "choice1": "Anh ấy bị đau đầu vào ngày hôm sau.", "choice2": "Anh ấy bị sổ mũi vào ngày hôm sau.", "question": "effect", "label": 0, "idx": 9, "changed": false}
+{"premise": "Quả bóng bowling làm ngã hết cái trụ bowling.", "choice1": "Người đàn ông lăn quả bóng bowling xuống đường băng.", "choice2": "Người đàn ông thả quả bóng bowling xuống chân mình.", "question": "cause", "label": 0, "idx": 10, "changed": false}
+{"premise": "Mọi người đã biết về cái chết của người đàn ông.", "choice1": "Gia đình ông ta chôn cất ở nghĩa trang.", "choice2": "Cáo phó của ông ấy xuất hiện trên báo.", "question": "cause", "label": 1, "idx": 11, "changed": false}
+{"premise": "Máy tính của tôi bị hỏng.", "choice1": "Tôi đã cài đặt loa mới.", "choice2": "Tôi đã mất tất cả dữ liệu của tôi.", "question": "effect", "label": 1, "idx": 12, "changed": false}
+{"premise": "Người phụ nữ xin nghỉ việc.", "choice1": "Cô ấy khao khát được giữ một vị trí điều hành trong công ty.", "choice2": "Cô ấy tin rằng cấp trên của mình đang hành động phi đạo đức.", "question": "cause", "label": 1, "idx": 13, "changed": false}
+{"premise": "Người chơi đã bắt được bóng.", "choice1": "Đồng đội của cô ấy đã ném cho cô.", "choice2": "Đối thủ của cô ấy đã cố gắng chặn nó lại.", "question": "cause", "label": 0, "idx": 14, "changed": true}
+{"premise": "Thẩm phán đập búa.", "choice1": "Phòng xử án nhốn nháo.", "choice2": "Bồi thẩm đoàn tuyên bố phán quyết của mình.", "question": "cause", "label": 0, "idx": 15, "changed": false}
+{"premise": "Người phụ nữ đuổi bọn trẻ ra khỏi nhà mình.", "choice1": "Bọn trẻ đánh một quả bóng vào sân của cô ấy.", "choice2": "Những đứa trẻ giẫm đạp qua khu vườn của cô ấy.", "question": "cause", "label": 1, "idx": 16, "changed": false}
+{"premise": "Bọn bắt cóc đã thả con tin.", "choice1": "Họ chấp nhận tiền chuộc.", "choice2": "Họ trốn thoát khỏi nhà tù.", "question": "cause", "label": 0, "idx": 17, "changed": false}
+{"premise": "Người đầu bếp chảy nước mắt.", "choice1": "Ông ấy hết hành.", "choice2": "Ông ấy cắt một củ hành.", "question": "cause", "label": 1, "idx": 18, "changed": false}
+{"premise": "Người phụ nữ rửa tay dưới nước lạnh.", "choice1": "Cô ấy bị phỏng ngón tay trên lò nướng bánh.", "choice2": "Cô ấy đeo nhẫn kim cương vào ngón tay.", "question": "cause", "label": 0, "idx": 19, "changed": false}
+{"premise": "Học sinh viết sai chính tả.", "choice1": "Cô giáo sửa lỗi.", "choice2": "Cô giáo làm lơ.", "question": "effect", "label": 0, "idx": 20, "changed": false}
+{"premise": "Tôi lấy lại bình tĩnh từ cơn giận của mình.", "choice1": "Tim tôi đập thình thịch.", "choice2": "Tôi hít thở thật sâu.", "question": "cause", "label": 1, "idx": 21, "changed": true}
+{"premise": "Tôi đưa tay dưới vòi nước đang chảy.", "choice1": "Xà phòng rửa sạch tay tôi.", "choice2": "Nước bắn vào mặt tôi.", "question": "effect", "label": 0, "idx": 22, "changed": true}
+{"premise": "Người đàn ông mặc bộ đồ đẹp nhất của mình.", "choice1": "Ông đã lên lịch họp với một khách hàng quan trọng.", "choice2": "Vợ ông ấy mua cho ông ấy một chiếc cà vạt mới.", "question": "cause", "label": 0, "idx": 23, "changed": false}
+{"premise": "Người đàn ông tỏ tình với người phụ nữ.", "choice1": "Người phụ nữ từ chối anh ấy.", "choice2": "Người phụ nữ ghen tị với anh ta.", "question": "effect", "label": 0, "idx": 24, "changed": false}
+{"premise": "Tài xế bị thủng lốp.", "choice1": "Anh ta vượt quá giới hạn tốc độ.", "choice2": "Anh chạy phải đinh.", "question": "cause", "label": 1, "idx": 25, "changed": false}
+{"premise": "Tầm nhìn màn hình của tôi bị chặn.", "choice1": "Cặp đôi phía sau tôi thì thầm.", "choice2": "Một người cao lớn ngồi trước mặt tôi.", "question": "cause", "label": 1, "idx": 26, "changed": false}
+{"premise": "Tài xế bật đèn pha của xe.", "choice1": "Anh ta nghe sấm sét.", "choice2": "Mặt trời đã lặn.", "question": "cause", "label": 1, "idx": 27, "changed": false}
+{"premise": "Bé gái không chịu ăn rau.", "choice1": "Bố bé bảo bé uống sữa.", "choice2": "Bố bé lấy đi món tráng miệng của bé.", "question": "effect", "label": 1, "idx": 28, "changed": false}
+{"premise": "Người phụ nữ che miệng bằng tay.", "choice1": "Cô thở ra.", "choice2": "Cô hắt xì.", "question": "cause", "label": 1, "idx": 29, "changed": false}
+{"premise": "Thư ký nói người gọi đợi.", "choice1": "Điện thoại của người gọi bị mất sóng.", "choice2": "Người gọi chờ.", "question": "effect", "label": 1, "idx": 30, "changed": false}
+{"premise": "Người phụ nữ đi bằng nạng.", "choice1": "Cô cạo lông chân.", "choice2": "Cô ấy bị gẫy chân.", "question": "cause", "label": 1, "idx": 31, "changed": false}
+{"premise": "Tôi ho.", "choice1": "Tôi hít khói.", "choice2": "Tôi hạ giọng.", "question": "cause", "label": 0, "idx": 32, "changed": false}
+{"premise": "Đồng hồ reo lên.", "choice1": "Đó là đầu giờ.", "choice2": "Một giờ đồng hồ kéo dài vô tận.", "question": "cause", "label": 0, "idx": 33, "changed": false}
+{"premise": "Đầu bếp đập trứng vào cạnh bát.", "choice1": "Trứng nứt.", "choice2": "Trứng thối rữa.", "question": "effect", "label": 0, "idx": 34, "changed": false}
+{"premise": "Cảnh sát đã khám xét xe của bọn tội phạm.", "choice1": "Họ đang cố thuyết phục chúng đầu thú.", "choice2": "Họ đang tìm kiếm ma túy bất hợp pháp.", "question": "cause", "label": 1, "idx": 35, "changed": false}
+{"premise": "Cặp đôi đi du lịch miền Nam vào mùa đông.", "choice1": "Họ đã nghỉ hưu.", "choice2": "Họ đã ly thân.", "question": "cause", "label": 0, "idx": 36, "changed": false}
+{"premise": "Người đàn ông cảm thấy bắt buộc phải tham dự sự kiện này.", "choice1": "Anh ta từ chối lời mời của bạn mình.", "choice2": "Anh đã hứa với bạn mình rằng anh sẽ đi.", "question": "cause", "label": 1, "idx": 37, "changed": false}
+{"premise": "Cô dâu cảm thấy lo lắng sợ hãi trước đám cưới.", "choice1": "Khách dự tiệc cưới mang quà.", "choice2": "Cô ấy hủy hôn.", "question": "effect", "label": 1, "idx": 38, "changed": false}
+{"premise": "Người đàn ông già đi.", "choice1": "Tóc anh ta chuyển bạc.", "choice2": "Anh ta đã bán đồ đạc của mình.", "question": "effect", "label": 0, "idx": 39, "changed": false}
+{"premise": "Những người bạn quyết định chia sẻ bánh hamburger.", "choice1": "Họ cắt bánh hamburger làm đôi.", "choice2": "Họ gọi khoai tây chiên với hamburger.", "question": "effect", "label": 0, "idx": 40, "changed": false}
+{"premise": "Tôi vặn nắp chai soda.", "choice1": "Soda xì hơi.", "choice2": "Soda bị rò rỉ ra ngoài.", "question": "effect", "label": 0, "idx": 41, "changed": false}
+{"premise": "Cặp học sinh này bị giáo viên kiểm tra.", "choice1": "Cả hai đều nhận được điểm xuất sắc.", "choice2": "Câu trả lời của họ trong bài tập giống hệt nhau.", "question": "cause", "label": 1, "idx": 42, "changed": false}
+{"premise": "Học sinh vội vàng đến trường đúng giờ.", "choice1": "Cậu ấy quên bài tập ở nhà.", "choice2": "Cậu ấy mang bữa trưa đến trường.", "question": "effect", "label": 0, "idx": 43, "changed": false}
+{"premise": "Nhà báo viết tiểu sử của nhà hoạt động nhân đạo.", "choice1": "Rất khó để nhà báo phỏng vấn nhà nhân đạo.", "choice2": "Nhà báo bị hấp dẫn bởi công việc của nhà nhân đạo.", "question": "cause", "label": 1, "idx": 44, "changed": false}
+{"premise": "Người đàn ông cản trở chính quyền nhà thờ.", "choice1": "Ông quyên góp tiền cho nhà thờ.", "choice2": "Ông bị trục xuất khỏi nhà thờ.", "question": "effect", "label": 1, "idx": 45, "changed": false}
+{"premise": "Tóc của người phụ nữ rơi vào mặt cô.", "choice1": "Cô vén tóc lại bằng một cái kẹp.", "choice2": "Cô ấy thoa dầu gội đầu vào tóc.", "question": "effect", "label": 0, "idx": 46, "changed": false}
+{"premise": "Chiếc nhẫn trên ngón tay tôi bị kẹt.", "choice1": "Ngón tay tôi sưng lên.", "choice2": "Tôi sứt móng tay.", "question": "cause", "label": 0, "idx": 47, "changed": false}
+{"premise": "Tôi kéo dây cao su.", "choice1": "Nó bay khắp phòng.", "choice2": "Nó kéo dài.", "question": "effect", "label": 1, "idx": 48, "changed": false}
+{"premise": "Tôi ấn tay vào xi măng ướt.", "choice1": "Dấu tay của tôi khô lại trong xi măng.", "choice2": "Các vết nứt nổi lên trong xi măng.", "question": "effect", "label": 0, "idx": 49, "changed": false}
+{"premise": "Da tôi đổ mẩn ngứa.", "choice1": "Tôi đụng vào cây thường xuân độc trong sân.", "choice2": "Tôi diệt trừ cây thường xuân độc hại trong sân của tôi.", "question": "cause", "label": 0, "idx": 50, "changed": false}
+{"premise": "Đăng ký của tôi vào tạp chí đã hết hạn.", "choice1": "Tôi đã vứt ấn phẩm mới.", "choice2": "Tôi đã ngừng nhận được các ấn phẩm mới.", "question": "effect", "label": 1, "idx": 51, "changed": false}
+{"premise": "Thám tử tiết lộ sự bất thường trong vụ án.", "choice1": "Ông đã hoàn thành giả thuyết của mình.", "choice2": "Ông đã loại bỏ giả thuyết của mình.", "question": "effect", "label": 1, "idx": 52, "changed": false}
+{"premise": "Cậu bé nổi cơn thịnh nộ.", "choice1": "Anh trai lấy đồ chơi của cậu.", "choice2": "Cậu chia sẻ đồ chơi của mình với anh trai.", "question": "cause", "label": 0, "idx": 53, "changed": false}
+{"premise": "Đứa trẻ đã học cách đọc.", "choice1": "Nó bắt đầu đi học.", "choice2": "Nó nhảy một lớp ở trường.", "question": "cause", "label": 0, "idx": 54, "changed": false}
+{"premise": "Cậu bé bỏ bữa tối.", "choice1": "Mẹ cậu nấu bữa ăn yêu thích của cậu.", "choice2": "Cậu ăn một bữa trưa lớn.", "question": "cause", "label": 1, "idx": 55, "changed": false}
+{"premise": "Người phụ nữ thảo mai với bạn mình bằng lời nịnh hót.", "choice1": "Cô muốn nhờ bạn mình giúp đỡ.", "choice2": "Cô phát cáu với lời càm ràm của bạn mình.", "question": "cause", "label": 0, "idx": 56, "changed": false}
+{"premise": "Chìa khóa bị rớt ra khỏi túi quần của tôi.", "choice1": "Cái túi có một cái lỗ.", "choice2": "Chiếc quần còn mới.", "question": "cause", "label": 0, "idx": 57, "changed": false}
+{"premise": "Người đàn ông ngất đi.", "choice1": "Anh ta chợp mắt.", "choice2": "Anh ta chạy marathon.", "question": "cause", "label": 1, "idx": 58, "changed": false}
+{"premise": "Người đàn ông đã thua cuộc.", "choice1": "Cuộc thi bị phá hoại.", "choice2": "Anh ta làm đối thủ của mình sợ.", "question": "cause", "label": 0, "idx": 59, "changed": false}
+{"premise": "Người mẹ gọi xe cứu thương.", "choice1": "Con trai bà mất con mèo.", "choice2": "Con trai bà ngã ra khỏi giường.", "question": "cause", "label": 1, "idx": 60, "changed": false}
+{"premise": "Người tài xế đạp phanh.", "choice1": "Một con nai xuất hiện trên đường.", "choice2": "Radio trên xe vụt tắt.", "question": "cause", "label": 0, "idx": 61, "changed": false}
+{"premise": "Khóa mở ra.", "choice1": "Tôi vặn chìa vào ổ khóa.", "choice2": "Tôi tạo một bản sao của chìa khóa.", "question": "cause", "label": 0, "idx": 62, "changed": false}
+{"premise": "Tôi đeo găng tay cao su vào.", "choice1": "Tôi đang chuẩn bị rửa tay.", "choice2": "Tôi đang chuẩn bị dọn dẹp phòng tắm.", "question": "cause", "label": 1, "idx": 63, "changed": false}
+{"premise": "Các loài động vật gặp đang nguy hiểm.", "choice1": "Môi trường sống của chúng bị phá hủy.", "choice2": "Động vật ăn thịt của chúng đã tuyệt chủng.", "question": "cause", "label": 0, "idx": 64, "changed": false}
+{"premise": "Người đàn ông nhận thấy  người phụ nữ trông khác.", "choice1": "Người phụ nữ đã cắt tóc.", "choice2": "Người phụ nữ đeo vòng tay.", "question": "cause", "label": 0, "idx": 65, "changed": false}
+{"premise": "Học sinh quên làm bài tập.", "choice1": "Cô ấy kiếm cớ để nói với giáo viên.", "choice2": "Cô giáo cho học sinh học vượt lớp.", "question": "effect", "label": 0, "idx": 66, "changed": false}
+{"premise": "Con chó sủa.", "choice1": "Con mèo nằm dài trên đi văng.", "choice2": "Một tiếng gõ cửa vang lên.", "question": "cause", "label": 1, "idx": 67, "changed": false}
+{"premise": "Kế hoạch thay thế công viên địa phương bằng một trung tâm mua sắm đã được công bố.", "choice1": "Các nhà hoạt động môi trường bắt đầu một kiến nghị.", "choice2": "Các nhà hoạt động môi trường sản xuất một bộ phim tài liệu.", "question": "effect", "label": 0, "idx": 68, "changed": false}
+{"premise": "Cặp đôi hạnh phúc khi gặp nhau.", "choice1": "Họ hôn nhau.", "choice2": "Họ nghỉ ngơi.", "question": "effect", "label": 0, "idx": 69, "changed": false}
+{"premise": "Người phụ nữ đuổi người đàn ông đi.", "choice1": "Anh xúc phạm cô.", "choice2": "Anh cảm ơn cô.", "question": "cause", "label": 0, "idx": 70, "changed": false}
+{"premise": "Cành cây rơi xuống sông.", "choice1": "Cành cây di chuyển xuôi dòng.", "choice2": "Dòng sông trở nên mạnh hơn.", "question": "effect", "label": 0, "idx": 71, "changed": false}
+{"premise": "Giáo viên giao bài tập về nhà cho học sinh.", "choice1": "Các học sinh chuyền nhau ghi chú.", "choice2": "Các học sinh rên rỉ.", "question": "effect", "label": 1, "idx": 72, "changed": false}
+{"premise": "Mùa đã đổi từ hạ sang thu.", "choice1": "Người dân sơ tán khỏi nhà.", "choice2": "Lá rụng.", "question": "effect", "label": 1, "idx": 73, "changed": false}
+{"premise": "Chính trị gia đã bị kết án về tội lừa đảo.", "choice1": "Ông vận động bầu cử lại.", "choice2": "Ông đã bị cách chức.", "question": "effect", "label": 1, "idx": 74, "changed": false}
+{"premise": "Tôi đẩy xe ngựa.", "choice1": "Đồ đạc trong toa xe rơi ra.", "choice2": "Các bánh xe di chuyển về phía trước.", "question": "effect", "label": 1, "idx": 75, "changed": false}
+{"premise": "Người vận động hành lang đã thuyết phục cơ quan lập pháp ủng hộ dự luật.", "choice1": "Tổng thống phủ quyết dự luật.", "choice2": "Các cơ quan lập pháp đã thông qua dự luật.", "question": "effect", "label": 1, "idx": 76, "changed": false}
+{"premise": "Tủ quần áo của tôi rất lộn xộn.", "choice1": "Tôi đã sắp xếp lại nó.", "choice2": "Tôi trang trí nó.", "question": "effect", "label": 0, "idx": 77, "changed": false}
+{"premise": "Tôi thức khuya.", "choice1": "Tôi đã có những giấc mơ sống động.", "choice2": "Tôi mệt mỏi vào sáng hôm sau.", "question": "effect", "label": 1, "idx": 78, "changed": false}
+{"premise": "Túi của người đàn ông lắc lư khi anh ta bước đi.", "choice1": "Túi của anh ta chứa đầy tiền xu.", "choice2": "Anh khâu lỗ trong túi.", "question": "cause", "label": 0, "idx": 79, "changed": false}
+{"premise": "Mọi người trong lớp quay sang nhìn chằm chằm vào học sinh.", "choice1": "Điện thoại của học sinh reo.", "choice2": "Học sinh ghi chép.", "question": "cause", "label": 0, "idx": 80, "changed": false}
+{"premise": "Con ngựa oằn mình.", "choice1": "Một con ruồi cắn con ngựa.", "choice2": "Người cưỡi ngựa vuốt ve con ngựa.", "question": "cause", "label": 0, "idx": 81, "changed": false}
+{"premise": "Những tên trộm trang sức đã bị bắt.", "choice1": "Các đồ trang sức bị đánh cắp đã được trả lại cho chủ sở hữu của chúng.", "choice2": "Chi phí của đồ trang sức bị đánh cắp đã được tính toán.", "question": "effect", "label": 0, "idx": 82, "changed": false}
+{"premise": "Bạo lực chính trị nổ ra trong cả nước.", "choice1": "Nhiều công dân chuyển đến thủ đô.", "choice2": "Nhiều công dân đã lánh nạn ở các lãnh thổ khác.", "question": "effect", "label": 1, "idx": 83, "changed": false}
+{"premise": "Người phụ nữ bị bắt.", "choice1": "Cô vào trại cai nghiện.", "choice2": "Cô ấy đã hành hung.", "question": "cause", "label": 1, "idx": 84, "changed": false}
+{"premise": "Người phụ nữ đọc báo.", "choice1": "Cô biết được kết quả của cuộc bầu cử.", "choice2": "Cô đã bỏ phiếu trong cuộc bầu cử.", "question": "effect", "label": 0, "idx": 85, "changed": false}
+{"premise": "Đứa trẻ bị bệnh ho vào người bạn mình.", "choice1": "Bạn nó bị ốm.", "choice2": "Bạn nó hắt hơi.", "question": "effect", "label": 0, "idx": 86, "changed": false}
+{"premise": "Cặp đôi đã đính hôn.", "choice1": "Họ lên kế hoạch cho một đám cưới.", "choice2": "Họ mất một thời gian.", "question": "effect", "label": 0, "idx": 87, "changed": false}
+{"premise": "Người phụ nữ liên lạc với đại lý bất động sản.", "choice1": "Người phụ nữ dự định mua một căn hộ.", "choice2": "Người phụ nữ cần dọn dẹp nhà cửa.", "question": "cause", "label": 0, "idx": 88, "changed": false}
+{"premise": "Người đàn ông trúng xổ số.", "choice1": "Anh trở nên giàu có.", "choice2": "Anh nợ tiền.", "question": "effect", "label": 0, "idx": 89, "changed": false}
+{"premise": "Tôi thắp nến.", "choice1": "Sáp nhỏ giọt khỏi ngọn nến.", "choice2": "Sáp trên nến cứng lại.", "question": "effect", "label": 0, "idx": 90, "changed": false}
+{"premise": "Tôi đã dành cả ngày tại hồ bơi.", "choice1": "Tôi bị bong gân mắt cá chân.", "choice2": "Mặt tôi bị cháy nắng.", "question": "effect", "label": 1, "idx": 91, "changed": false}
+{"premise": "Người đàn ông nhận một vé phạt đậu xe.", "choice1": "Anh đỗ song song trên phố.", "choice2": "Đồng hồ đỗ xe hết hạn.", "question": "cause", "label": 1, "idx": 92, "changed": false}
+{"premise": "Người phụ nữ trở nên nổi tiếng.", "choice1": "Nhiếp ảnh gia theo dõi cô.", "choice2": "Gia đình cô tránh mặt cô.", "question": "effect", "label": 0, "idx": 93, "changed": false}
+{"premise": "Cô gái muốn đeo hoa tai.", "choice1": "Cô ấy bấm lỗ tai.", "choice2": "Cô xăm một hình xăm.", "question": "effect", "label": 0, "idx": 94, "changed": false}
+{"premise": "Tai tôi rung lên.", "choice1": "Tôi đã đi đến một bảo tàng.", "choice2": "Tôi đã đi đến một buổi hòa nhạc.", "question": "cause", "label": 1, "idx": 95, "changed": false}
+{"premise": "Tôi dọn dẹp nhà cửa.", "choice1": "Tôi bị ngập trong công việc.", "choice2": "Tôi có khách.", "question": "cause", "label": 1, "idx": 96, "changed": false}
+{"premise": "Hãng hàng không làm hư hại hành lý của tôi.", "choice1": "Họ đề nghị bồi thường.", "choice2": "Họ đã hủy chuyến bay của tôi.", "question": "effect", "label": 0, "idx": 97, "changed": false}
+{"premise": "Máy tính rất đắt để sửa.", "choice1": "Tôi đã thuê người sửa nó.", "choice2": "Tôi đã mua một cái mới.", "question": "effect", "label": 1, "idx": 98, "changed": false}
+{"premise": "Người phụ nữ đang trong tâm trạng tồi tệ.", "choice1": "Cô ấy buôn chuyện với bạn mình.", "choice2": "Cô nói với bạn mình để cô ấy yên.", "question": "effect", "label": 1, "idx": 99, "changed": false}

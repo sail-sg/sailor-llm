@@ -67,7 +67,7 @@
 |-----------| -------  | ------- | ------- | 
 | Random guess |  <span style="color: grey">25.00</span> | <span style="color: grey">25.00</span> | <span style="color: grey">25.00</span>
 | Qwen1.5-0.5B | 29.89 | 26.89 | 30.22 
-| <span style="color: blue">Sailor-0.5B</span> | **32.22** | **30.89** | **32.33** |
+| Sailor-0.5B | **32.22** | **30.89** | **32.33** |
 | Qwen1.5-1.8B | 30.11 | 32.00 | 31.33
 | Sailor-1.8B | **34.22** | **34.89** | **35.33** |
 | Qwen1.5-4B | 32.78 | 36.22 | 35.22

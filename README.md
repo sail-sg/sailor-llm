@@ -7,7 +7,7 @@
 <tr>
     <th>3-shot (EM / F1)</th>
     <th>XQuAD (th)</th>
-    <th>TyDi QA (id)</th>
+    <th>TydiQA (id)</th>
     <th>XQuAD (vi)</th>
 </tr>
 <tr>
@@ -16,7 +16,7 @@
   <td>20.71 / 32.64</td>
   <td>19.85 / 35.38</td>
 </tr>
-<tr style="color: #000084;">
+<tr style="background-color: #000084;">
   <td>Sailor-0.5B</td>
   <td>15.84 / 27.58</td>
   <td>30.44 / 54.74</td>

@@ -1,6 +1,7 @@
 #!/bin/bash
 cd sailor-llm
 
+# setup opencompass environment
 conda create --name opencompass python=3.10 pytorch torchvision pytorch-cuda -c nvidia -c pytorch -y
 conda activate opencompass
 git clone https://github.com/open-compass/opencompass opencompass
@@ -9,6 +10,7 @@ pip install -e .
 pip install pythainlp langid
 mkdir data
 
+# create evaluation scripts
 cd ../
 cp -r eval/configs/* opencompass/configs/
 cp -r eval/data/* opencompass/data/
@@ -23,4 +25,8 @@ echo "from .xcopa_sea import *  # noqa: F401, F403" >> "opencompass/opencompass/
 echo "from .m3exam import *  # noqa: F401, F403" >> "opencompass/opencompass/datasets/__init__.py"
 echo "from .belebele import *  # noqa: F401, F403" >> "opencompass/opencompass/datasets/__init__.py"
 cp eval/eval_sailor.py opencompass/configs/
+
+# run evaluation
+cd opencompass
+python run.py configs/eval_sailor.py -w outputs/sailor --num-gpus 4 --max-num-workers 64
 

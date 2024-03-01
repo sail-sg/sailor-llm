@@ -1,7 +1,15 @@
 #!/bin/bash
 cd sailor-llm
+
+conda create --name opencompass python=3.10 pytorch torchvision pytorch-cuda -c nvidia -c pytorch -y
+conda activate opencompass
 git clone https://github.com/open-compass/opencompass opencompass
-mkdir opencompass/data
+cd opencompass
+pip install -e .
+pip install pythainlp langid
+mkdir data
+
+cd ../
 cp -r eval/configs/* opencompass/configs/
 cp -r eval/data/* opencompass/data/
 cp -r eval/datasets/* opencompass/opencompass/datasets/

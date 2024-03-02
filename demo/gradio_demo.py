@@ -45,7 +45,7 @@ def predict(message, history):
     stop = StopOnTokens()
 
     # Formatting the input for the model.
-    messages = sft_end_token.join([sft_end_token.join([f"\n{sft_start_token}{user_role}:" + item[0], f"\n{sft_start_token}{assistant_role}:" + item[1]])
+    messages = sft_end_token.join([sft_end_token.join([f"\n{sft_start_token}{user_role}\n" + item[0], f"\n{sft_start_token}{assistant_role}\n" + item[1]])
                         for item in history_transformer_format])
     model_inputs = tokenizer([messages], return_tensors="pt").to(device)
     streamer = TextIteratorStreamer(tokenizer, timeout=10., skip_prompt=True, skip_special_tokens=True)

@@ -1,0 +1,10 @@
+{
+    "aya_orca_sft_data": {
+      "file_name": "aya_orca_sft_data.jsonl",
+      "columns": {
+        "system": "system",
+        "prompt": "question",
+        "response": "response"
+      }
+    }
+}

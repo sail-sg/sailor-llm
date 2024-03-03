@@ -42,11 +42,11 @@ Here are the results of the evaluation of the models on question answering tasks
   <td>20.71 / 32.64</td>
   <td>19.85 / 35.38</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-0.5B</td>
-  <td>15.84 / 27.58</td>
-  <td>30.44 / 54.74</td>
-  <td>21.13 / 40.57</td>
+<tr>
+  <td><b>Sailor-0.5B</b></td>
+  <td><b>15.84 / 27.58</b></td>
+  <td><b>30.44 / 54.74</b></td>
+  <td><b>21.13 / 40.57</b></td>
 </tr>
 <tr>
   <td>Qwen1.5-1.8B</td>
@@ -54,11 +54,11 @@ Here are the results of the evaluation of the models on question answering tasks
   <td>29.73 / 53.76</td>
   <td>29.17 / 48.15</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-1.8B</td>
-  <td>32.72 / 48.66</td>
-  <td>40.88 / 65.37</td>
-  <td>34.22 / 53.35</td>
+<tr>
+  <td><b>Sailor-1.8B</b></td>
+  <td><b>32.72 / 48.66</b></td>
+  <td><b>40.88 / 65.37</b></td>
+  <td><b>34.22 / 53.35</b></td>
 </tr>
 <tr>
   <td>Qwen1.5-4B</td>
@@ -66,11 +66,11 @@ Here are the results of the evaluation of the models on question answering tasks
   <td>48.32 / 72.68</td>
   <td>43.71 / 63.86</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-4B</td>
-  <td>46.82 / 63.34</td>
-  <td>53.98 / 73.48</td>
-  <td>47.65 / 67.09</td>
+<tr>
+  <td><b>Sailor-4B</b></td>
+  <td><b>46.82 / 63.34</b></td>
+  <td><b>53.98 / 73.48</b></td>
+  <td><b>47.65 / 67.09</b></td>
 </tr>
 <tr>
   <td>Llama-2-7b</td>
@@ -102,11 +102,11 @@ Here are the results of the evaluation of the models on question answering tasks
   <td>57.17 / 77.28</td>
   <td>56.63 / 76.99</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-7B</td>
-  <td>57.88 / 71.06</td>
-  <td>60.53 / 75.42</td>
-  <td>53.81 / 74.62</td>
+<tr>
+  <td><b>Sailor-7B</b></td>
+  <td><b>57.88 / 71.06</b></td>
+  <td><b>60.53 / 75.42</b></td>
+  <td><b>53.81 / 74.62</b></td>
 </tr>
 </table>
 

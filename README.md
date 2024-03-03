@@ -25,7 +25,90 @@ You can find all the Sailor models in our Huggingface home page [here](https://h
 
 ## Evaluation
 
-You can find the evaluation code to reproduce the results in the `eval` directory. The evaluation results are presented in the form of tables, where the first column is the model name, and the reset columns are the performance on Thai (th), Indonesian (id), and Vietnamese (vi) languages, respectively. The results of Sailor models are highlighted in bold.
+Here are the results of the evaluation of the models on question answering tasks. The evaluation results are presented in the form of tables, where the first column is the model name, and the reset columns are the performance on Thai (th), Indonesian (id), and Vietnamese (vi) languages, respectively. The results of Sailor models are highlighted in bold. You can find the full evaluation results on the different tasks and our evaluation code to reproduce the results in the [eval](eval) directory.
+
+### Question Answering
+
+<table>
+<tr>
+    <th>3-shot (EM / F1)</th>
+    <th>XQuAD (th)</th>
+    <th>TydiQA (id)</th>
+    <th>XQuAD (vi)</th>
+</tr>
+<tr>
+  <td>Qwen1.5-0.5B</td>
+  <td>14.19 / 23.35</td>
+  <td>20.71 / 32.64</td>
+  <td>19.85 / 35.38</td>
+</tr>
+<tr style="font-weight: 1000;">
+  <td>Sailor-0.5B</td>
+  <td>15.84 / 27.58</td>
+  <td>30.44 / 54.74</td>
+  <td>21.13 / 40.57</td>
+</tr>
+<tr>
+  <td>Qwen1.5-1.8B</td>
+  <td>27.24 / 43.56</td>
+  <td>29.73 / 53.76</td>
+  <td>29.17 / 48.15</td>
+</tr>
+<tr style="font-weight: 1000;">
+  <td>Sailor-1.8B</td>
+  <td>32.72 / 48.66</td>
+  <td>40.88 / 65.37</td>
+  <td>34.22 / 53.35</td>
+</tr>
+<tr>
+  <td>Qwen1.5-4B</td>
+  <td>34.03 / 53.40</td>
+  <td>48.32 / 72.68</td>
+  <td>43.71 / 63.86</td>
+</tr>
+<tr style="font-weight: 1000;">
+  <td>Sailor-4B</td>
+  <td>46.82 / 63.34</td>
+  <td>53.98 / 73.48</td>
+  <td>47.65 / 67.09</td>
+</tr>
+<tr>
+  <td>Llama-2-7b</td>
+  <td>30.64 / 43.80</td>
+  <td>56.64 / 72.14</td>
+  <td>46.96 / 66.16</td>
+</tr>
+<tr>
+  <td>Mistral-7B-v0.1</td>
+  <td>48.48 / 63.27</td>
+  <td>63.54 / 78.73</td>
+  <td>53.72 / 72.75</td>
+</tr>
+<tr>
+  <td>SeaLLM-7b-Hybrid</td>
+  <td>49.70 / 67.62</td>
+  <td>50.62 / 75.21</td>
+  <td>49.62 / 70.74</td>
+</tr>
+<tr>
+  <td>SeaLLM-7b-v2</td>
+  <td>34.55 / 55.13</td>
+  <td>52.21 / 77.00</td>
+  <td>46.19 / 72.11</td>
+</tr>
+<tr>
+  <td>Qwen1.5-7B</td>
+  <td>53.79 / 69.30</td>
+  <td>57.17 / 77.28</td>
+  <td>56.63 / 76.99</td>
+</tr>
+<tr style="font-weight: 1000;">
+  <td>Sailor-7B</td>
+  <td>57.88 / 71.06</td>
+  <td>60.53 / 75.42</td>
+  <td>53.81 / 74.62</td>
+</tr>
+</table>
 
 ### Setup
 

@@ -18,11 +18,11 @@ Here are the results of the evaluation of the models on the different tasks. The
   <td>20.71 / 32.64</td>
   <td>19.85 / 35.38</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-0.5B</td>
-  <td>15.84 / 27.58</td>
-  <td>30.44 / 54.74</td>
-  <td>21.13 / 40.57</td>
+<tr>
+  <td><b>Sailor-0.5B</b></td>
+  <td><b>15.84 / 27.58</b></td>
+  <td><b>30.44 / 54.74</b></td>
+  <td><b>21.13 / 40.57</b></td>
 </tr>
 <tr>
   <td>Qwen1.5-1.8B</td>
@@ -30,11 +30,11 @@ Here are the results of the evaluation of the models on the different tasks. The
   <td>29.73 / 53.76</td>
   <td>29.17 / 48.15</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-1.8B</td>
-  <td>32.72 / 48.66</td>
-  <td>40.88 / 65.37</td>
-  <td>34.22 / 53.35</td>
+<tr>
+  <td><b>Sailor-1.8B</b></td>
+  <td><b>32.72 / 48.66</b></td>
+  <td><b>40.88 / 65.37</b></td>
+  <td><b>34.22 / 53.35</b></td>
 </tr>
 <tr>
   <td>Qwen1.5-4B</td>
@@ -42,11 +42,11 @@ Here are the results of the evaluation of the models on the different tasks. The
   <td>48.32 / 72.68</td>
   <td>43.71 / 63.86</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-4B</td>
-  <td>46.82 / 63.34</td>
-  <td>53.98 / 73.48</td>
-  <td>47.65 / 67.09</td>
+<tr>
+  <td><b>Sailor-4B</b></td>
+  <td><b>46.82 / 63.34</b></td>
+  <td><b>53.98 / 73.48</b></td>
+  <td><b>47.65 / 67.09</b></td>
 </tr>
 <tr>
   <td>Llama-2-7b</td>
@@ -78,11 +78,11 @@ Here are the results of the evaluation of the models on the different tasks. The
   <td>57.17 / 77.28</td>
   <td>56.63 / 76.99</td>
 </tr>
-<tr style="font-weight: 1000;">
-  <td>Sailor-7B</td>
-  <td>57.88 / 71.06</td>
-  <td>60.53 / 75.42</td>
-  <td>53.81 / 74.62</td>
+<tr>
+  <td><b>Sailor-7B</b></td>
+  <td><b>57.88 / 71.06</b></td>
+  <td><b>60.53 / 75.42</b></td>
+  <td><b>53.81 / 74.62</b></td>
 </tr>
 </table>
 
@@ -95,11 +95,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <th>XCOPA (id)</th>
     <th>XCOPA (vi)</th>
   </tr>
-  <tr style="color: grey">
-    <td>Random guess</td>
-    <td><span style="color: grey">50.00</span></td>
-    <td><span style="color: grey">50.00</span></td>
-    <td><span style="color: grey">50.00</span></td>
+  <tr>
+    <td><i>Random guess</i></td>
+    <td><i>50.00</i></td>
+    <td><i>50.00</i></td>
+    <td><i>50.00</i></td>
   </tr>
   <tr>
     <td>Qwen1.5-0.5B</td>
@@ -107,11 +107,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>52.20</td>
     <td>53.80</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-0.5B</td>
-    <td>51.00</td>
-    <td>58.20</td>
-    <td>58.00</td>
+  <tr>
+    <td><b>Sailor-0.5B</b></td>
+    <td><b>51.00</b></td>
+    <td><b>58.20</b></td>
+    <td><b>58.00</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-1.8B</td>
@@ -119,11 +119,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>51.60</td>
     <td>53.40</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-1.8B</td>
-    <td>53.80</td>
-    <td>64.20</td>
-    <td>63.20</td>
+  <tr>
+    <td><b>Sailor-1.8B</b></td>
+    <td><b>53.80</b></td>
+    <td><b>64.20</b></td>
+    <td><b>63.20</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-4B</td>
@@ -131,11 +131,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>55.00</td>
     <td>57.80</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-4B</td>
-    <td>53.40</td>
-    <td>69.20</td>
-    <td>68.20</td>
+  <tr>
+    <td><b>Sailor-4B</b></td>
+    <td><b>53.40</b></td>
+    <td><b>69.20</b></td>
+    <td><b>68.20</b></td>
   </tr>
   <tr>
     <td>Llama-2-7b</td>
@@ -167,11 +167,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>62.20</td>
     <td>66.20</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-7B</td>
-    <td>59.00</td>
-    <td>72.20</td>
-    <td>72.20</td>
+  <tr>
+    <td><b>Sailor-7B</b></td>
+    <td><b>59.00</b></td>
+    <td><b>72.20</b></td>
+    <td><b>72.20</b></td>
   </tr>
 </table>
 
@@ -185,11 +185,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <th>Belebele (id)</th>
     <th>Belebele (vi)</th>
   </tr>
-  <tr style="color: grey">
-    <td>Random guess</td>
-    <td><span style="color: grey">25.00</span></td>
-    <td><span style="color: grey">25.00</span></td>
-    <td><span style="color: grey">25.00</span></td>
+  <tr>
+    <td><i>Random guess</i></td>
+    <td><i>25.00</i></td>
+    <td><i>25.00</i></td>
+    <td><i>25.00</i></td>
   </tr>
   <tr>
     <td>Qwen1.5-0.5B</td>
@@ -197,11 +197,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>26.89</td>
     <td>30.22</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-0.5B</td>
-    <td>32.22</td>
-    <td>30.89</td>
-    <td>32.33</td>
+  <tr>
+    <td><b>Sailor-0.5B</b></td>
+    <td><b>32.22</b></td>
+    <td><b>30.89</b></td>
+    <td><b>32.33</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-1.8B</td>
@@ -209,11 +209,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>32.00</td>
     <td>31.33</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-1.8B</td>
-    <td>34.22</td>
-    <td>34.89</td>
-    <td>35.33</td>
+  <tr>
+    <td><b>Sailor-1.8B</b></td>
+    <td><b>34.22</b></td>
+    <td><b>34.89</b></td>
+    <td><b>35.33</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-4B</td>
@@ -221,11 +221,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>36.22</td>
     <td>35.22</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-4B</td>
-    <td>36.11</td>
-    <td>41.33</td>
-    <td>38.89</td>
+  <tr>
+    <td><b>Sailor-4B</b></td>
+    <td><b>36.11</b></td>
+    <td><b>41.33</b></td>
+    <td><b>38.89</b></td>
   </tr>
   <tr>
     <td>Llama-2-7b</td>
@@ -257,11 +257,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>42.00</td>
     <td>42.89</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-7B</td>
-    <td>41.56</td>
-    <td>44.33</td>
-    <td>45.33</td>
+  <tr>
+    <td><b>Sailor-7B</b></td>
+    <td><b>41.56</b></td>
+    <td><b>44.33</b></td>
+    <td><b>45.33</b></td>
   </tr>
 </table>
 
@@ -274,11 +274,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <th>M3Exam (id)</th>
     <th>M3Exam (vi)</th>
   </tr>
-  <tr style="color: grey">
-    <td>Random guess</td>
-    <td><span style="color: grey">22.90</span></td>
-    <td><span style="color: grey">25.00</span></td>
-    <td><span style="color: grey">25.21</span></td>
+  <tr>
+    <td><i>Random guess</i></td>
+    <td><i>22.90</i></td>
+    <td><i>25.00</i></td>
+    <td><i>25.21</i></td>
   </tr>
   <tr>
     <td>Qwen1.5-0.5B</td>
@@ -286,11 +286,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>25.07</td>
     <td>26.66</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-0.5B</td>
-    <td>24.41</td>
-    <td>26.15</td>
-    <td>30.91</td>
+  <tr>
+    <td><b>Sailor-0.5B</b></td>
+    <td><b>24.41</b></td>
+    <td><b>26.15</b></td>
+    <td><b>30.91</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-1.8B</td>
@@ -298,11 +298,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>24.26</td>
     <td>28.68</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-1.8B</td>
-    <td>25.38</td>
-    <td>28.30</td>
-    <td>34.71</td>
+  <tr>
+    <td><b>Sailor-1.8B</b></td>
+    <td><b>25.38</b></td>
+    <td><b>28.30</b></td>
+    <td><b>34.71</b></td>
   </tr>
   <tr>
     <td>Qwen1.5-4B</td>
@@ -310,11 +310,11 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>24.26</td>
     <td>30.02</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-4B</td>
-    <td>27.88</td>
-    <td>31.27</td>
-    <td>40.69</td>
+  <tr>
+    <td><b>Sailor-4B</b></td>
+    <td><b>27.88</b></td>
+    <td><b>31.27</b></td>
+    <td><b>40.69</b></td>
   </tr>
   <tr>
     <td>Llama-2-7b</td>
@@ -346,10 +346,10 @@ Here are the results of the evaluation of the models on the different tasks. The
     <td>26.15</td>
     <td>36.28</td>
   </tr>
-  <tr style="font-weight: 1000;">
-    <td>Sailor-7B</td>
-    <td>30.00</td>
-    <td>32.88</td>
-    <td>44.10</td>
+  <tr>
+    <td><b>Sailor-7B</b></td>
+    <td><b>30.00</b></td>
+    <td><b>32.88</b></td>
+    <td><b>44.10</b></td>
   </tr>
 </table>

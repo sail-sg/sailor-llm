@@ -31,7 +31,7 @@ accelerate launch \
     --max_steps 5000 \
     --save_steps 500 \
     --warmup_steps 100 \
-    --output_dir checkpoints/$MODEL_NAME \
+    --output_dir checkpoints/${MODEL_NAME} \
     --bf16 True \
     --plot_loss True \
     --report_to wandb \

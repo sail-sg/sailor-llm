@@ -10,9 +10,9 @@ dataset = load_dataset("Open-Orca/OpenOrca")
 print(f'process orca dataset')
 for idx in tqdm(range(len(dataset['train']))):
     sft_data.append({
-        'text': f"<|im_start|>system\n{dataset['train'][idx]['system_prompt']}<|im_end|>\n" + \
-            f"<|im_start|>question\n{dataset['train'][idx]['question']}<|im_end|>\n" + \
-            f"<|im_start|>answer\n{dataset['train'][idx]['response']}<|im_end|>\n",
+        'system': dataset['train'][idx]['system_prompt'],
+        'question': dataset['train'][idx]['question'],
+        'response': dataset['train'][idx]['response'],
     })
 
 
@@ -34,8 +34,9 @@ for sub_domain in reversed(['templated_indo_stories', 'templated_nusax_senti', '
         if dataset['train'][idx]['language'] not in ['ind', 'zsm', 'vie', 'zho', 'tha']:
             continue
         sft_data.append({
-            'text': f"<|im_start|>question\n{dataset['train'][idx]['inputs']}<|im_end|>\n" + \
-                f"<|im_start|>answer\n{dataset['train'][idx]['targets']}<|im_end|>\n",
+            'system': None,
+            'question': dataset['train'][idx]['inputs'],
+            'response': dataset['train'][idx]['targets'],
         })
 
 

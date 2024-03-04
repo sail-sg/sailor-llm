@@ -271,7 +271,7 @@ Here are the results of the evaluation of the models on the different tasks. The
   <tr>
     <th>3-shot (EM)</th>
     <th>M3Exam (th)</th>
-    <th>M3Exam (id)</th>
+    <th>M3Exam (jv)</th>
     <th>M3Exam (vi)</th>
   </tr>
   <tr>

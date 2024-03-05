@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, StoppingCriteria, 
 from threading import Thread
 
 
-model_path = 'sail/Sailor-4B'
+model_path = 'sail/Sailor-4B-Chat'
 
 
 # Loading the tokenizer and model from Hugging Face's model hub.
@@ -27,26 +27,32 @@ class StopOnTokens(StoppingCriteria):
                 return True
         return False
 
-# user_role = '<|user|>'
-# assistant_role = "<|assistant|>"
+system_role= 'system'
 user_role = 'question'
 assistant_role = "answer"
 
 sft_start_token =  "<|im_start|>"
 sft_end_token = "<|im_end|>"
 ct_end_token = "<|endoftext|>"
-# if 'Qwen/' in model_path:
-#     sft_end_token = ct_end_token
+
+system_prompt= \
+'You are an AI assistant named Sailor created by Sea AI Lab. \
+Your answer should be friendly, unbiased, faithful, informative and detailed.'
+system_prompt = f"<|im_start|>{system_role}\n{system_prompt}<|im_end|>"
 
 # Function to generate model predictions.
 def predict(message, history):
-    # history = []
     history_transformer_format = history + [[message, ""]]
     stop = StopOnTokens()
 
     # Formatting the input for the model.
-    messages = sft_end_token.join([sft_end_token.join([f"\n{sft_start_token}{user_role}\n" + item[0], f"\n{sft_start_token}{assistant_role}\n" + item[1]])
-                        for item in history_transformer_format])
+    messages = system_prompt + sft_end_token.join([
+        sft_end_token.join([
+            f"\n{sft_start_token}{user_role}\n" + item[0],
+            f"\n{sft_start_token}{assistant_role}\n" + item[1]
+        ]) for item in history_transformer_format
+    ])
+    
     model_inputs = tokenizer([messages], return_tensors="pt").to(device)
     streamer = TextIteratorStreamer(tokenizer, timeout=10., skip_prompt=True, skip_special_tokens=True)
     generate_kwargs = dict(
@@ -54,8 +60,8 @@ def predict(message, history):
         streamer=streamer,
         max_new_tokens=256,
         do_sample=True,
-        top_p= 0.75,
-        top_k= 60,
+        top_p=0.75,
+        top_k=60,
         temperature=0.2,
         num_beams=1,
         stopping_criteria=StoppingCriteriaList([stop]),
@@ -70,10 +76,16 @@ def predict(message, history):
             break
         yield partial_message
 
+prompt_examples = [
+    'How to cook a fish?',
+    'Cara memanggang ikan',
+    'วิธีย่างปลา',
+    'Cách nướng cá'
+]
 
 # Setting up the Gradio chat interface.
 gr.ChatInterface(predict,
                  title=f"Sailor chat",
                  description="Ask Sailor any questions",
-                 examples=['How to cook a fish?', 'Who is the president of US now?']
+                 examples=prompt_examples,
                  ).launch(share=True)  # Launching the web interface.

@@ -17,11 +17,15 @@ Sailor is a suite of Open Language Models tailored for South-East Asia (SEA), fo
 
 ## Models
 
-You can find all the Sailor models in our Huggingface home page [here](https://huggingface.co/sail):
+You can find all the Sailor models in our Huggingface home page [here]([https://huggingface.co/sail](https://huggingface.co/collections/sail/sailor-language-models-65e19a749f978976f1959825)):
 - [Sailor-0.5B](https://huggingface.co/sail/Sailor-0.5B)
 - [Sailor-1.8B](https://huggingface.co/sail/Sailor-1.8B)
 - [Sailor-4B](https://huggingface.co/sail/Sailor-4B)
 - [Sailor-7B](https://huggingface.co/sail/Sailor-7B)
+- [Sailor-0.5B-Chat](https://huggingface.co/sail/Sailor-0.5B-Chat)
+- [Sailor-1.8B-Chat](https://huggingface.co/sail/Sailor-1.8B-Chat)
+- [Sailor-4B-Chat](https://huggingface.co/sail/Sailor-4B-Chat)
+- [Sailor-7B-Chat](https://huggingface.co/sail/Sailor-7B-Chat) 
 
 ## Evaluation
 
@@ -159,7 +163,20 @@ You can also modify the script to evaluate other models like Qwen1.5, Llama, Mis
 
 ## Demo
 
-We provide a simple demo to chat with Sailor-Chat models (coming soon). You can find the demo code in the `demo` directory.
+We provide a simple [demo](https://huggingface.co/spaces/sail/Sailor-7B-Chat) to chat with Sailor-7B-Chat. You can find the [demo code](https://github.com/sail-sg/sailor-llm/tree/main/demo).
+
+## Citing this work
+
+If you use this repository or sailor models you can cite
+
+```
+@misc{Sailor,
+  title = {Sailor: Open Language Models for South-East Asia},
+  author = {Longxu Dou and Qian Liu and Guangtao Zeng and Jia Guo and Jiahui Zhou and Wei Lu and Min Lin},
+  year = {2024},
+  url={https://github.com/sail-sg/sailor-llm}
+}
+```
 
 ## Contact
 

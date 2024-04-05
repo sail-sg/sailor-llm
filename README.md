@@ -3,7 +3,7 @@
 [![Homepage](https://img.shields.io/badge/🏠-Homepage-3C47EB.svg)](https://sailorllm.github.io/) &nbsp;&nbsp; [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-E87948.svg)](https://huggingface.co/sail/Sailor-7B) &nbsp;&nbsp; [![Technical Report](https://img.shields.io/badge/arXiv-2404.03608-b31b1b.svg)](https://arxiv.org/pdf/2404.03608.pdf)
 
  
-This repository contains the evaluation and demo code for Sailor, a suite of open language models for South-East Asia. 
+This repository contains the evaluation code for Sailor, a suite of open language models for South-East Asia. 
 
 Sailor is developed by the [Sea AI Lab](https://sail.sea.com/) and [Singapore University of Technology and Design](https://istd.sutd.edu.sg/people/faculty/lu-wei/).
 

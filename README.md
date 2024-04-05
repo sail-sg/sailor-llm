@@ -1,8 +1,11 @@
 # Sailor: Open Language Models for South-East Asia
 
-[![Homepage](https://img.shields.io/badge/🏠-Homepage-blue.svg)](https://sailorllm.github.io/) &nbsp;&nbsp; [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-red.svg)](https://huggingface.co/sail/Sailor-7B)
+[![Homepage](https://img.shields.io/badge/🏠-Homepage-3C47EB.svg)](https://sailorllm.github.io/) &nbsp;&nbsp; [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-E87948.svg)](https://huggingface.co/sail/Sailor-7B) &nbsp;&nbsp; [![Technical Report](https://img.shields.io/badge/arXiv-2404.03608-b31b1b.svg)](https://arxiv.org/pdf/2404.03608.pdf)
 
-This repository contains the evaluation and demo code for Sailor, a suite of open language models for South-East Asia. Sailor is developed by the [Sea AI Lab](https://sail.sea.com/) and [Singapore University of Technology and Design](https://istd.sutd.edu.sg/people/faculty/lu-wei/).
+ 
+This repository contains the evaluation and demo code for Sailor, a suite of open language models for South-East Asia. 
+
+Sailor is developed by the [Sea AI Lab](https://sail.sea.com/) and [Singapore University of Technology and Design](https://istd.sutd.edu.sg/people/faculty/lu-wei/).
 
 <img src="misc/banner.jpg" style="width:90%">
 
@@ -14,6 +17,8 @@ Sailor is a suite of Open Language Models tailored for South-East Asia (SEA), fo
 - Various model sizes (0.5B, 1.8B, 4B and 7B) to support different requirements.
 - Strong performance on SEA benchmarks such as XQuAD, TydiQA, XCOPA, Belebele and M3Exam.
 - No restrict on the research and the commercial use, but should comply with the Qwen 1.5 license.
+
+To learn more details, please access the [technical report](https://arxiv.org/pdf/2404.03608.pdf).
 
 ## Models
 
@@ -163,18 +168,21 @@ You can also modify the script to evaluate other models like Qwen1.5, Llama, Mis
 
 ## Demo
 
-We provide a simple [demo](https://huggingface.co/spaces/sail/Sailor-7B-Chat) to chat with Sailor-7B-Chat. You can find the [demo code](https://github.com/sail-sg/sailor-llm/tree/main/demo).
+We provide a simple [demo](https://huggingface.co/spaces/sail/Sailor-7B-Chat) to chat with [Sailor-7B-Chat](https://huggingface.co/sail/Sailor-7B-Chat) . 
+You can also develop it using the provided [demo code](https://github.com/sail-sg/sailor-llm/tree/main/demo).
 
 ## Citing this work
 
-If you use this repository or sailor models you can cite
+If you use this repository or sailor models, please cite
 
 ```
-@misc{Sailor,
-  title = {Sailor: Open Language Models for South-East Asia},
-  author = {Longxu Dou and Qian Liu and Guangtao Zeng and Jia Guo and Jiahui Zhou and Wei Lu and Min Lin},
-  year = {2024},
-  url={https://github.com/sail-sg/sailor-llm}
+@misc{dou2024sailor,
+      title={Sailor: Open Language Models for South-East Asia}, 
+      author={Longxu Dou and Qian Liu and Guangtao Zeng and Jia Guo and Jiahui Zhou and Wei Lu and Min Lin},
+      year={2024},
+      eprint={2404.03608},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 

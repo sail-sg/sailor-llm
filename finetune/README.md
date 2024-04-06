@@ -74,7 +74,7 @@ tpu_use_sudo: false
 use_cpu: false
 ```
 
-##### Runing supervised fine-tuning
+##### Running supervised fine-tuning
 ```bash
 # copy training data and scripts
 cp -r ../dataset/ .

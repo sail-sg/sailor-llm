@@ -265,7 +265,17 @@ Here are the results of the evaluation of the models on the different tasks. The
   </tr>
 </table>
 
-### Examination
+### Examination (Generation)
+
+We have observed that the performance discrepancy of Sailor on M3Exam is due to a significant option bias, which leads the Sailor models to favor certain option IDs (e.g., always C) when making predictions. As for more explaintation on Generation and Perplexity, please refer to our [paper](https://arxiv.org/abs/2404.03608) for more details.
+
+<table> <tr> <th>3-shot (EM)</th>
+    <th>M3Exam (th)</th>
+    <th>M3Exam (jv)</th>
+    <th>M3Exam (vi)</th> </tr> <tr> <td>Qwen1.5-0.5B</td> <td>22.38</td> <td>22.10</td> <td>29.12</td> </tr> <tr> <td><b>Sailor-0.5B</b></td> <td><b>21.87</b></td> <td><b>28.84</b></td> <td><b>23.53</b></td> </tr> <tr> <td>Qwen1.5-1.8B</td> <td>23.81</td> <td>26.15</td> <td>36.39</td> </tr> <tr> <td><b>Sailor-1.8B</b></td> <td><b>23.90</b></td> <td><b>29.65</b></td> <td><b>27.67</b></td> </tr> <tr> <td>Qwen1.5-4B</td> <td>26.26</td> <td>30.19</td> <td>40.02</td> </tr> <tr> <td><b>Sailor-4B</b></td> <td><b>27.23</b></td> <td><b>29.11</b></td> <td><b>31.58</b></td> </tr> <tr> <td>Llama-2-7B</td> <td>21.13</td> <td>23.99</td> <td>34.15</td> </tr> <tr> <td>Mistral-7B-v0.1</td> <td>29.59</td> <td>31.00</td> <td>43.54</td> </tr> <tr> <td>Typhoon-7B</td> <td>36.71</td> <td>--</td> <td>--</td> </tr> <tr> <td>VinaLLaMA-7B</td> <td>--</td> <td>--</td> <td>36.95</td> </tr> <tr> <td>Sea-Lion-7B</td> <td>23.90</td> <td>21.56</td> <td>26.89</td> </tr> <tr> <td>SeaLLM-7B-Hybrid</td> <td>25.98</td> <td>24.53</td> <td>38.79</td> </tr> <tr> <td>SeaLLM-7B-v2</td> <td>35.60</td> <td>29.92</td> <td>50.36</td> </tr> <tr> <td>Qwen1.5-7B</td> <td>35.88</td> <td>33.15</td> <td>51.09</td> </tr> <tr> <td><b>Sailor-7B</b></td> <td><b>38.33</b></td> <td><b>35.85</b></td> <td><b>51.98</b></td> </tr> </table>
+
+
+### Examination (Perplexity)
 
 <table>
   <tr>

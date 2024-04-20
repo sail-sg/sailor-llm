@@ -9,6 +9,10 @@ with read_base():
     from .datasets.xcopa.xcopa_id_ppl_49je23 import xcopa_datasets as xcopa_id_ppl
     from .datasets.xcopa.xcopa_vi_ppl_49je23 import xcopa_datasets as xcopa_vi_ppl
 
+    from .datasets.m3exam.m3exam_jv_4fs13f import m3exam_datasets as m3exam_jv
+    from .datasets.m3exam.m3exam_th_481ea1 import m3exam_datasets as m3exam_th
+    from .datasets.m3exam.m3exam_vi_172ds2 import m3exam_datasets as m3exam_vi
+
     from .datasets.m3exam.m3exam_th_ppl2_481ea1 import m3exam_datasets as m3exam_th_ppl2
     from .datasets.m3exam.m3exam_th_ppl4_481ea1 import m3exam_datasets as m3exam_th_ppl4
     from .datasets.m3exam.m3exam_th_ppl5_481ea1 import m3exam_datasets as m3exam_th_ppl5
@@ -40,6 +44,7 @@ with read_base():
 
 datasets = [*xquad_th, *tydiqa_id, *xquad_vi]
 datasets += [*xcopa_th_ppl, *xcopa_id_ppl, *xcopa_vi_ppl]
+datasets += [*m3exam_jv, *m3exam_th, *m3exam_vi]
 datasets += [*m3exam_th_ppl2, *m3exam_th_ppl4, *m3exam_th_ppl5]
 datasets += [*m3exam_id_ppl]
 datasets += [*m3exam_vi_ppl2, *m3exam_vi_ppl3, *m3exam_vi_ppl4]

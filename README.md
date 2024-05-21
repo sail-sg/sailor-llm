@@ -11,10 +11,10 @@ Sailor is developed by the [Sea AI Lab](https://sail.sea.com/) and [Singapore Un
 
 ## Introduction
 
-Sailor is a suite of Open Language Models tailored for South-East Asia (SEA), focusing on languages such as 🇮🇩Indonesian, 🇹🇭Thai, 🇻🇳Vietnamese, 🇲🇾Malay, and 🇱🇦Lao. Developed with careful data curation, Sailor models are designed to understand and generate text across diverse linguistic landscapes of SEA region. Built from Qwen 1.5, Sailor encompasses models of varying sizes, spanning from 0.5B to 7B versions for different requirements. Benchmarking results demonstrate Sailor's proficiency in tasks such as question answering, commonsense reasoning, reading comprehension and etc. in SEA languages.
+Sailor is a suite of Open Language Models tailored for South-East Asia (SEA), focusing on languages such as 🇮🇩Indonesian, 🇹🇭Thai, 🇻🇳Vietnamese, 🇲🇾Malay, and 🇱🇦Lao. Developed with careful data curation, Sailor models are designed to understand and generate text across diverse linguistic landscapes of SEA region. Built from Qwen 1.5, Sailor encompasses models of varying sizes, spanning from 0.5B to 14B versions for different requirements. Benchmarking results demonstrate Sailor's proficiency in tasks such as question answering, commonsense reasoning, reading comprehension and etc. in SEA languages.
 
 - Continually pretrained on 200 Billion to 400 Billion tokens over 7 languages, including Indonesian, Thai, Vietnamese, Malay, Lao, English and Chinese.
-- Various model sizes (0.5B, 1.8B, 4B and 7B) to support different requirements.
+- Various model sizes (0.5B, 1.8B, 4B, 7B and 14B) to support different requirements.
 - Strong performance on SEA benchmarks such as XQuAD, TydiQA, XCOPA, Belebele and M3Exam.
 - No restrict on the research and the commercial use, but should comply with the Qwen 1.5 license.
 
@@ -27,10 +27,12 @@ You can find all the Sailor models in our Huggingface home page [here]([https://
 - [Sailor-1.8B](https://huggingface.co/sail/Sailor-1.8B)
 - [Sailor-4B](https://huggingface.co/sail/Sailor-4B)
 - [Sailor-7B](https://huggingface.co/sail/Sailor-7B)
+- [Sailor-14B](https://huggingface.co/sail/Sailor-14B)
 - [Sailor-0.5B-Chat](https://huggingface.co/sail/Sailor-0.5B-Chat)
 - [Sailor-1.8B-Chat](https://huggingface.co/sail/Sailor-1.8B-Chat)
 - [Sailor-4B-Chat](https://huggingface.co/sail/Sailor-4B-Chat)
-- [Sailor-7B-Chat](https://huggingface.co/sail/Sailor-7B-Chat) 
+- [Sailor-7B-Chat](https://huggingface.co/sail/Sailor-7B-Chat)
+- [Sailor-14B-Chat](https://huggingface.co/sail/Sailor-14B-Chat) 
 
 ## Evaluation
 
@@ -168,7 +170,7 @@ You can also modify the script to evaluate other models like Qwen1.5, Llama, Mis
 
 ## Demo
 
-We provide a simple [demo](https://huggingface.co/spaces/sail/Sailor-7B-Chat) to chat with [Sailor-7B-Chat](https://huggingface.co/sail/Sailor-7B-Chat) . 
+We provide a simple [demo](https://huggingface.co/spaces/sail/Sailor-14B-Chat) to chat with [Sailor-14B-Chat](https://huggingface.co/sail/Sailor-14B-Chat) . 
 You can also develop it using the provided [demo code](https://github.com/sail-sg/sailor-llm/tree/main/demo).
 
 ## Citing this work

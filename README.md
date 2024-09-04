@@ -162,7 +162,7 @@ To run the evaluation, run the following command under this folder:
 
 ```bash
 cd opencompass
-python run.py configs/eval_sailor.py -w outputs/sailor --num-gpus 1 --max-num-workers 64
+python run.py configs/eval_sailor.py -w outputs/sailor --hf-num-gpus 1 --max-num-workers 64
 ```
 
 You can also modify the script to evaluate other models like Qwen1.5, Llama, Mistral, etc.

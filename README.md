@@ -1,6 +1,7 @@
 # Sailor: Open Language Models for South-East Asia
 
-[![Homepage](https://img.shields.io/badge/🏠-Homepage-3C47EB.svg)](https://sailorllm.github.io/) &nbsp;&nbsp; [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-E87948.svg)](https://huggingface.co/sail/Sailor-7B) &nbsp;&nbsp; [![Technical Report](https://img.shields.io/badge/arXiv-2404.03608-b31b1b.svg)](https://arxiv.org/pdf/2404.03608.pdf) &nbsp;&nbsp; [![SailCraft](https://img.shields.io/badge/🚢-SailCraft-4F94CD.svg)](https://github.com/sail-sg/sailcraft)
+[![Homepage](https://img.shields.io/badge/🏠-Homepage-3C47EB.svg)](https://sailorllm.github.io/) &nbsp;&nbsp; [![HuggingFace](https://img.shields.io/badge/🤗-Model&Demo-E87948.svg)](https://huggingface.co/collections/sail/sailor-language-models-65e19a749f978976f1959825) &nbsp;&nbsp; [![Technical Report](https://img.shields.io/badge/arXiv-Report-b31b1b.svg)](https://arxiv.org/pdf/2404.03608.pdf) &nbsp;&nbsp; [![SailCraft](https://img.shields.io/badge/🚢-SailCraft(Data)-4F94CD.svg)](https://github.com/sail-sg/sailcraft) &nbsp;&nbsp; [![SailCompass](https://img.shields.io/badge/🧭-SailCompass(Evaluation)-ffbf00.svg)](https://github.com/sail-sg/sailcompass)
+
 
  
 This repository contains the evaluation code for Sailor, a suite of open language models for South-East Asia. 
